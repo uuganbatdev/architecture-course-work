@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "silver_users",
+  "info": {
+    "name": "silverCustomer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "onlySilverProducts": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "golden_users",
+  "info": {
+    "name": "goldenCustomer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "onlyGoldenProducts": {
+      "type": "string"
+    }
+  }
+}

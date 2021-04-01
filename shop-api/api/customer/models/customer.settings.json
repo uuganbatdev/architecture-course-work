@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "name": "customer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userName": {
+      "type": "string"
+    },
+    "userWallet": {
+      "type": "integer"
+    },
+    "userAge": {
+      "type": "integer"
+    },
+    "userPoints": {
+      "type": "integer"
+    },
+    "isGoldenCustomer": {
+      "type": "boolean",
+      "default": false
+    },
+    "isSilverCustomer": {
+      "type": "boolean",
+      "default": false
+    },
+    "isAdmin": {
+      "type": "boolean",
+      "default": false
+    },
+    "password": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/silver-users",
+      "handler": "silver-user.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/silver-users/count",
+      "handler": "silver-user.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/silver-users/:id",
+      "handler": "silver-user.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/silver-users",
+      "handler": "silver-user.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/silver-users/:id",
+      "handler": "silver-user.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/silver-users/:id",
+      "handler": "silver-user.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

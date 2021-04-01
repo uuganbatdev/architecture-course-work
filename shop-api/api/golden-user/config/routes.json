@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/golden-users",
+      "handler": "golden-user.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/golden-users/count",
+      "handler": "golden-user.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/golden-users/:id",
+      "handler": "golden-user.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/golden-users",
+      "handler": "golden-user.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/golden-users/:id",
+      "handler": "golden-user.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/golden-users/:id",
+      "handler": "golden-user.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
